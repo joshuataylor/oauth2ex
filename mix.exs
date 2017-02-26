@@ -5,10 +5,10 @@ defmodule OAuth2Ex.Mixfile do
     [app: :oauth2ex,
      version: "0.1.0",
      elixir: "~> 1.3",
-     description: description,
-     package: package,
+     description: description(),
+     package: package(),
      test_coverage: [tool: ExCoveralls],
-     deps: deps]
+     deps: deps()]
   end
 
   # Configuration for the OTP application
